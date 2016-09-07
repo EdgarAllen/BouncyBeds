@@ -1,0 +1,16 @@
+[
+{
+  "modid": "bouncybeds",
+  "name": "Bouncy Beds",
+  "description": "Make Beds Bouncy Again!",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["EdgarAllen"],
+  "credits": "Blame u/aslak123; it was their idea",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
