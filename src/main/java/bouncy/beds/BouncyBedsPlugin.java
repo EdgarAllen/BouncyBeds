@@ -5,7 +5,7 @@ import net.minecraftforge.fml.relauncher.IFMLLoadingPlugin;
 import java.util.Map;
 
 @IFMLLoadingPlugin.Name("bouncybeds")
-@IFMLLoadingPlugin.MCVersion("1.10.2")
+@IFMLLoadingPlugin.MCVersion("1.11")
 @IFMLLoadingPlugin.TransformerExclusions("bouncy.beds")
 @IFMLLoadingPlugin.SortingIndex(1001)
 public class BouncyBedsPlugin implements IFMLLoadingPlugin {
