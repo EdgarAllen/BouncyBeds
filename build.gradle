@@ -24,12 +24,12 @@ plugins {
 sourceCompatibility = JavaVersion.VERSION_1_8
 targetCompatibility = JavaVersion.VERSION_1_8
 
-version = "1.0"
+version = "1.1"
 group= "bouncy.beds" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "bouncybeds"
 
 minecraft {
-    version = "1.10.2-12.18.1.2076"
+    version = "1.10.2-12.18.2.2124"
     runDir = "run"
     
     // the mappings can be changed at any time, and must be in the following format.

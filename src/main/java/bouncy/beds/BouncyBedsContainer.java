@@ -22,7 +22,7 @@ public class BouncyBedsContainer  extends DummyModContainer {
 
         metadata.modId = "bouncybeds";
         metadata.name = "Bouncy Beds";
-        metadata.version = "1.0";
+        metadata.version = "1.1";
         metadata.description = "Make Beds Bouncy Again!";
         metadata.authorList = Collections.singletonList("EdgarAllen");
         metadata.credits = "Blame u/aslak123; it was their idea";

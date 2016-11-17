@@ -73,9 +73,9 @@ public class BlockBedClassVisitor extends ClassVisitor {
     }
 
     public static void onLanded(World worldIn, Entity entityIn) {
-        if(entityIn.isSneaking()) {
+        if(entityIn.isSneaking() || entityIn.motionY > -0.1D) {
             entityIn.motionY = 0.0D;
-        } else if(entityIn.motionY < 0.0D) {
+        } else {
             entityIn.motionY = -(entityIn.motionY * 1.24f);
 
             if (!(entityIn instanceof EntityLivingBase)) {
