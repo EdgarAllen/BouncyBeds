@@ -85,6 +85,6 @@ public class BlockBedClassVisitor extends ClassVisitor {
     }
 
     public static void onFallenUpon(World worldIn, BlockPos pos, Entity entityIn, float fallDistance) {
-        entityIn.fall(fallDistance, entityIn.isSneaking() ? 1.0f : 0.0F);
+        entityIn.fall(fallDistance, 0.0F);
     }
 }
